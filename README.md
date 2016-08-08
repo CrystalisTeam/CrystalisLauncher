@@ -1,7 +1,8 @@
 # Crystalis Launcher
 
-A launcher for WoW.
-(C++)
+A launcher for WoW made for learning purpose.
+Feel free to use it if you want.
+Made in C++
 
 # Features
 
@@ -21,6 +22,7 @@ of usefull links for the project.
   Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 * [Patch maker(By
   Stonehary)](https://github.com/CrystalisTeam/Blizzard-Updater)
+* [Crystalis](http://forum.crystalis.tk)
 
 # Screenshots
 
