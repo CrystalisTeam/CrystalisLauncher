@@ -22,6 +22,7 @@ of usefull links for the project.
   Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 * [Patch maker(By
   Stonehary)](https://github.com/CrystalisTeam/Blizzard-Updater)
+* [Guide Workflow](http://makina-corpus.com/blog/metier/2014/un-workflow-git-efficace-pour-les-projets-a-moyen-long-terme)
 * [Crystalis](http://forum.crystalis.tk)
 
 # Screenshots
