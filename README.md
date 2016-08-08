@@ -1,2 +1,2 @@
 # CrystalisLauncher
-A launcher for WoW private server
+A launcher for WoW
