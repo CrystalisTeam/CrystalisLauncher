@@ -13,9 +13,11 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        mainwindow.cpp
+        mainwindow.cpp \
+    wowinstall.cpp
 
-HEADERS  += mainwindow.h
+HEADERS  += mainwindow.h \
+    wowinstall.h
 
 FORMS    += mainwindow.ui
 
