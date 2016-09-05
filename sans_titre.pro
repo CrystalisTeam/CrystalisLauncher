@@ -23,3 +23,5 @@ FORMS    += mainwindow.ui
 
 RESOURCES += \
     background.qrc
+
+DISTFILES +=

@@ -7,10 +7,8 @@ WowInstall::WowInstall()
 
 bool WowInstall::CheckVersion() {
     //WowInstall::GetVersionServer();
-    if (version != version_server) {
-        return false;
-    }
-    return true;
+
+    return version == server_version;
 }
 
 void WowInstall::GetVersionServer() {
