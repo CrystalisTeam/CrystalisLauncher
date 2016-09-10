@@ -24,5 +24,5 @@ void WowInstall::UpdateNews() {
 }
 
 bool WowInstall::CheckWowDirectory() {
-
+    return true;
 }

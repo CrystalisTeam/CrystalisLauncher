@@ -5,10 +5,10 @@ class WowInstall
 {
 public:
     struct ConnectionInfo {
-        std::string server_ip;
+//        std::string server_ip;
         int server_port;
-        std::string client_login;
-        std::string client_password;
+//        std::string client_login;
+//        std::string client_password;
     };
 
     WowInstall();
@@ -17,6 +17,7 @@ public:
     bool CheckVersion(); // Check if our version is up-to-date
     void Update(); // Start the update
     void UpdateNews(); // Update news
+    bool CheckWowDirectory(); // Update news
 
 private:
     enum LauncherState {
@@ -27,8 +28,8 @@ private:
 
     int version; // Local version
     int server_version;
-    ConnectionInfo connection_info;
-    LauncherState update_state;
+//    ConnectionInfo connection_info;
+//    LauncherState update_state;
 };
 
 

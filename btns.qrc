@@ -1,0 +1,30 @@
+<RCC>
+    <qresource prefix="/new/btn_close">
+        <file>images/close_hover.png</file>
+        <file>images/close_normal.png</file>
+    </qresource>
+    <qresource prefix="/new/btn_minimize">
+        <file>images/minimize_normal.png</file>
+        <file>images/minimize_hover.png</file>
+    </qresource>
+    <qresource prefix="/new/btn_forum">
+        <file>images/forum_normal.png</file>
+        <file>images/forum_hover.png</file>
+    </qresource>
+    <qresource prefix="/new/btn_cache">
+        <file>images/cache_normal.png</file>
+        <file>images/cache_hover.png</file>
+    </qresource>
+    <qresource prefix="/new/btn_ts3">
+        <file>images/ts3_hover.png</file>
+        <file>images/ts3_normal.png</file>
+    </qresource>
+    <qresource prefix="/new/btn_play">
+        <file>images/play_hover.png</file>
+        <file>images/play_normal.png</file>
+    </qresource>
+    <qresource prefix="/new/btn_news">
+        <file>images/news_hover.png</file>
+        <file>images/news_normal.png</file>
+    </qresource>
+</RCC>

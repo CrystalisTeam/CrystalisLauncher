@@ -1,6 +1,5 @@
 <RCC>
     <qresource prefix="/new/background">
-        <file>nasty_pirates_by_firatsolhan-d80liyd.jpg</file>
-        <file>Crystalis_TA_Logo.png</file>
+        <file>Launcher Design.png</file>
     </qresource>
 </RCC>

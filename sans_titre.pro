@@ -22,6 +22,7 @@ HEADERS  += mainwindow.h \
 FORMS    += mainwindow.ui
 
 RESOURCES += \
-    background.qrc
+    background.qrc \
+    btns.qrc
 
 DISTFILES +=
