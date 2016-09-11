@@ -69,14 +69,87 @@ QPushButton#btn_play:hover
    background-image: url(:/new/btn_play/images/play_hover.png);
 }
 
-QPushButton#btn_close:pressed
+QPushButton#btn_play:pressed
 {
    background-image: url(:/new/btn_play/images/play_hover.png);
 }
-QPushButton#btn_close:disabled
+QPushButton#btn_play:disabled
 {
    background-image: url(:/new/btn_play/images/play_hover.png);
-}</string>
+}
+
+QPushButton#btn_news
+{
+    background-color: transparent;
+    background-image: url(:/new/btn_news/images/news_normal.png);
+    background-repeat: none;    
+    border: none;
+}
+
+QPushButton#btn_news:hover
+{
+   background-image: url(:/new/btn_news/images/news_hover.png);
+}
+
+QPushButton#btn_news:pressed
+{
+   background-image: url(:/new/btn_news/images/news_hover.png);
+}
+
+QPushButton#btn_ts3
+{
+    background-color: transparent;
+    background-image: url(:/new/btn_ts3/images/ts3_normal.png);
+    background-repeat: none;    
+    border: none;
+}
+
+QPushButton#btn_ts3:hover
+{
+   background-image: url(:/new/btn_ts3/images/ts3_hover.png);
+}
+
+QPushButton#btn_ts3:pressed
+{
+   background-image: url(:/new/btn_ts3/images/ts3_hover.png);
+}
+
+QPushButton#btn_forum
+{
+    background-color: transparent;
+    background-image: url(:/new/btn_forum/images/forum_normal.png);
+    background-repeat: none;    
+    border: none;
+}
+
+QPushButton#btn_forum:hover
+{
+   background-image: url(:/new/btn_forum/images/forum_hover.png);
+}
+
+QPushButton#btn_forum:pressed
+{
+   background-image: url(:/new/btn_forum/images/forum_hover.png);
+}
+
+QPushButton#btn_cache
+{
+    background-color: transparent;
+    background-image: url(:/new/btn_cache/images/cache_normal.png);
+    background-repeat: none;    
+    border: none;
+}
+
+QPushButton#btn_cache:hover
+{
+   background-image: url(:/new/btn_cache/images/cache_hover.png);
+}
+
+QPushButton#btn_cache:pressed
+{
+   background-image: url(:/new/btn_cache/images/cache_hover.png);
+}
+</string>
   </property>
   <property name="animated">
    <bool>true</bool>
@@ -158,59 +231,92 @@ QPushButton#btn_close:disabled
    <widget class="QPushButton" name="btn_forum">
     <property name="geometry">
      <rect>
-      <x>60</x>
+      <x>34</x>
       <y>500</y>
-      <width>113</width>
-      <height>32</height>
+      <width>136</width>
+      <height>44</height>
      </rect>
     </property>
     <property name="text">
-     <string>PushButton</string>
+     <string/>
     </property>
    </widget>
    <widget class="QPushButton" name="btn_cache">
     <property name="geometry">
      <rect>
-      <x>200</x>
-      <y>510</y>
-      <width>113</width>
-      <height>32</height>
+      <x>195</x>
+      <y>500</y>
+      <width>136</width>
+      <height>44</height>
      </rect>
     </property>
     <property name="text">
-     <string>btn_cache</string>
+     <string/>
     </property>
    </widget>
    <widget class="QPushButton" name="btn_ts3">
     <property name="geometry">
      <rect>
-      <x>380</x>
-      <y>510</y>
-      <width>113</width>
-      <height>32</height>
+      <x>351</x>
+      <y>500</y>
+      <width>136</width>
+      <height>44</height>
      </rect>
     </property>
     <property name="text">
-     <string>PushButton</string>
+     <string/>
     </property>
    </widget>
    <widget class="QPushButton" name="btn_news">
     <property name="geometry">
      <rect>
-      <x>570</x>
-      <y>400</y>
-      <width>113</width>
-      <height>32</height>
+      <x>552</x>
+      <y>392</y>
+      <width>152</width>
+      <height>42</height>
      </rect>
     </property>
     <property name="text">
-     <string>PushButton</string>
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="slidepos_1">
+    <property name="geometry">
+     <rect>
+      <x>388</x>
+      <y>427</y>
+      <width>12</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="btns.qrc">:/images/slide_pos.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="slidepos_2">
+    <property name="geometry">
+     <rect>
+      <x>411</x>
+      <y>427</y>
+      <width>12</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="btns.qrc">:/images/slide_pos.png</pixmap>
     </property>
    </widget>
   </widget>
  </widget>
  <layoutdefault spacing="6" margin="11"/>
  <resources>
+  <include location="btns.qrc"/>
   <include location="background.qrc"/>
  </resources>
  <connections/>

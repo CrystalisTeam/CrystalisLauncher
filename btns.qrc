@@ -27,4 +27,7 @@
         <file>images/news_hover.png</file>
         <file>images/news_normal.png</file>
     </qresource>
+    <qresource prefix="/">
+        <file>images/slide_pos.png</file>
+    </qresource>
 </RCC>
