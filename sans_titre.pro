@@ -14,10 +14,18 @@ TEMPLATE = app
 
 SOURCES += main.cpp\
         mainwindow.cpp \
-    wowinstall.cpp
+    wowinstall.cpp \
+    src/FileManager.cpp \
+    src/DownloadManager.cpp \
+    src/NewsManager.cpp \
+    src/File.cpp
 
 HEADERS  += mainwindow.h \
-    wowinstall.h
+    wowinstall.h \
+    src/FileManager.h \
+    src/DownloadManager.h \
+    src/NewsManager.h \
+    src/File.h
 
 FORMS    += mainwindow.ui
 
