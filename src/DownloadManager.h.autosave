@@ -1,0 +1,22 @@
+#ifndef DOWNLOADMANAGER_H
+#define DOWNLOADMANAGER_H
+
+
+class DownloadManager {
+
+public:
+    enum LauncherState {
+        Idle, Downloading, Paused, Ready
+    };
+
+    DownloadManager();
+
+    void Download(std::vector<std::string> toDownload);
+    float GetDownloadPercent();
+
+private:
+    float dlPercent_;
+
+};
+
+#endif // DOWNLOADMANAGER_H

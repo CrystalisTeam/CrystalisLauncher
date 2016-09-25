@@ -2,10 +2,11 @@
 #define FILE_H
 
 
-class File
-{
+class File {
+
 public:
     File();
+
 };
 
 #endif // FILE_H

@@ -12,20 +12,24 @@ TARGET = sans_titre
 TEMPLATE = app
 
 
-SOURCES += main.cpp\
-        mainwindow.cpp \
-    wowinstall.cpp \
-    src/FileManager.cpp \
-    src/DownloadManager.cpp \
-    src/NewsManager.cpp \
-    src/File.cpp
+SOURCES += src/main.cpp\
+    src/mainwindow.cpp \
+    src/wowinstall.cpp \
+    src/download_manager.cpp \
+    src/file.cpp \
+    src/file_manager.cpp \
+    src/launcher_config.cpp \
+    src/news_manager.cpp \
+    src/core.cpp
 
-HEADERS  += mainwindow.h \
-    wowinstall.h \
-    src/FileManager.h \
-    src/DownloadManager.h \
-    src/NewsManager.h \
-    src/File.h
+HEADERS  += src/mainwindow.h \
+    src/wowinstall.h \
+    src/download_manager.h \
+    src/news_manager.h \
+    src/launcher_config.h \
+    src/file_manager.h \
+    src/file.h \
+    src/core.h
 
 FORMS    += mainwindow.ui
 
